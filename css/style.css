@@ -125,10 +125,11 @@ nav ul li a:hover {
 	margin-top:70px;
 	margin-bottom:50px;
 	float:left;
-	width:60%;
+	width:50%;
 }
 .textWidth {
 	width:40%;
+	margin-left:40px;
 }
 .textWidth h3{
 	font-size:25px;
@@ -254,25 +255,47 @@ footer .fas {
 	display:inline-block;
 	margin-bottom:20px;
 	width:30%;
+	box-shadow:2px 2px 4px;
 }
+
 #products figure a:hover{
 	background-color:#B9414A;
+	
 }
 .bestProduct {
 	padding-top:80px;
 	background-color:#fff;
 }
+#bestSellingTshirt .textWidth a{
+	box-shadow:2px 2px 4px;
+}
+#bestSellingTshirt .textWidth span {
+	font-weight:bold;
+}
 #bestSellingTshirt {
 	background-color:#BB8169;
 	text-align:center;
+}
+#bestSellingTshirt .img {
+	position:relative;
+	animation: bestimg 3s;
+}
+@keyframes bestimg {
+    from { opacity: 0; left:-200px;  }
+    to   { opacity: 1; left:0px;  }
 }
 /*----LOGIN, REGISTER and CONTACT STYLE----*/
 .formLogRegCon {
 	padding-top:200px;
 	padding-bottom:134px;
 	text-align:center;
-	width:30%;
+	float:left;
+	width:50%;
 	margin:0px auto;
+}
+#logReg {
+	margin:0px auto;
+	margin-left:px;
 }
 .formLogRegCon a:hover{
 	color:#B9414A;
@@ -304,6 +327,7 @@ footer .fas {
 }
 .conChanges {
 	float:left;
+	width:30%;
 }
 /*---STYLE za EMBEDOVANU MAPU---*/
 #map {

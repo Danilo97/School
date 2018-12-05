@@ -25,7 +25,7 @@
 				<ul>
 					<li><a href="login.html">Login</a></li>
 					<span>|</span>
-					<li><a href="register.html">Register</a></li>
+					<li><a href="login.html">Register</a></li>
 				</ul>
 			</nav>
 			<div class="socials">
@@ -35,15 +35,31 @@
 			</div>
 			<div class="cleaner"></div>
 		</header>
-		<div class="formLogRegCon">
-			<h1>Login</h1>
-			<form action="admin.html" method="post">
-				<input type="text" name="name" id="name1" placeholder="Your Name"/>
-				<input type="email" name="email" id="mail" placeholder="Enter e-mail"/>
-				<input type="password" name="pass" id="password" placeholder="Password"/>
-				<input type="submit" value="Login" id="login"/>
-			</form>
-			<p>Not registered? <a href="register.html">Create an account</a></p>
+		<div id="logReg">
+			<div class="formLogRegCon">
+				<h1>Login</h1>
+				<form action="#" method="post">
+					<input type="text" name="name" id="name1" placeholder="Your Name"/>
+					<input type="email" name="email" id="mail" placeholder="Enter e-mail"/>
+					<input type="password" name="pass" id="password" placeholder="Password"/>
+					<input type="submit" value="Login" id="login"/>
+				</form>
+				<p>Not registered? <a href="login.html">Create an account</a></p>
+			</div>
+			<div class="formLogRegCon">
+				<h1>Register</h1>
+				<form action="login.html" method="post">
+					<input type="text" name="name" id="name1" placeholder="Your Name" required />
+					<input type="text" name="lastname" id="lastname1" placeholder="Your Lastname"/>
+					<input type="email" name="email" id="mail" placeholder="Enter e-mail" required />
+					<input type="password" name="pass" id="password" placeholder="Password" required />
+					<input type="password" name="passRepeat" id="passwordRep" placeholder="Repeat Password" required />
+					<input type="submit" value="Register" id="register"/>
+					<input type="reset" value="Reset Form" id="reset"/>
+				</form>
+				<p>Already registered? <a href="login.html">Login</a></p>
+			</div>
+			<div class="cleaner"></div>
 		</div>
 		<footer>
 			<p>Danilo Mijailović Visoka ICT 203/18</p>

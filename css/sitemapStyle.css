@@ -1,0 +1,15 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+url {
+	color:#000;
+	display:block;
+	border-bottom:1px solid #000;
+	margin-top:20px;
+	width:30%;
+}
+loc, lastmod, priority {
+	display:block;
+	margin-top:10px;
+}
