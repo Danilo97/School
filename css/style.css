@@ -127,6 +127,9 @@ nav ul li a:hover {
 	float:left;
 	width:50%;
 }
+.embed {
+	margin-left:80px;
+}
 .textWidth {
 	width:40%;
 	margin-left:40px;
