@@ -128,12 +128,12 @@ nav ul li a:hover {
 	width:50%;
 }
 .embed {
-	margin-left:80px;
+	margin-left:90px;
 }
 .textWidth {
 	width:40%;
 	margin-left:40px;
-}
+}	
 .textWidth h3{
 	font-size:25px;
 	margin-right:30px;
@@ -372,4 +372,24 @@ footer .fas {
 #fanArt figcaption{
 	margin-top:5px;
 	font-weight:bold;
+}
+#aboutMe {
+	margin:0px auto;
+	width:80%;
+	padding-top:100px;
+	padding-bottom:50px;
+}
+#profileImage {
+	float:left;
+	width:50%;
+}
+#biography {
+	float:left;
+	width:40%;
+}
+#biography h1, p{
+	margin-bottom:30px;
+}
+#biography p {
+	font-size:20px;
 }
