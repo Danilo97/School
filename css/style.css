@@ -221,6 +221,7 @@ footer a{
 }
 footer .fas {
 	float:none;
+	margin-top:-10px;
 }
 
 /*-----PRODUCTS-----*/
