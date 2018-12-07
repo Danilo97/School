@@ -394,3 +394,6 @@ footer .fas {
 #biography p {
 	font-size:20px;
 }
+#biography a:hover {
+	color:#B9414A;
+}
